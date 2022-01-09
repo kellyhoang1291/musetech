@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>MuseTech</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {font-family: "Lato", sans-serif}
+  .mySlides {display: none}
+  .more {display: none;}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-padding-large"><img src="images/logo.png" style="width:30px"></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#review" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REVIEW</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#review" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REVIEW</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/bg1.png" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <a><img src="images/logo.png" style="width:100px"></a>
+      <h1>MuseTech</h1>
+      <h3>Home of record-breaking artist reviews</h3>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/bg2.png" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <a><img src="images/logo.png" style="width:100px"></a>
+      <h1>MuseTech</h1>
+      <h3>Home of record-breaking artist reviews</h3>     
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/bg3.png" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <a><img src="images/logo.png" style="width:100px"></a>
+      <h1>MuseTech</h1>
+      <h3>Home of record-breaking artist reviews</h3>       
+    </div>
+  </div>
+
+  
+  <!-- The Review Section -->
+  <div class="w3-black" id="review">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <h2 class="w3-wide">THE ARTIST REVIEWS</h2>
+        <p class="w3-opacity"><i>We love music</i></p>
+        <p class="w3-justify">MuseTech is an online site that reviews new music to keep you in the know about the latest artists. At the end of each month, we update the Reviews on our site with our favourite finds. Our reviews give you insight on who each artist is, their latest album, and our favourite song. See our <a href="#about" class="a-link">ABOUT US</a> to learn more about the people behind MuseTech. Stay tuned for more reviews!</p>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/billy-raffoul.jpeg" alt="Billy Raffoul" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Billy Raffoul</b></p>
+            <p class="w3-opacity">Album: Born to Die</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-full checked"></span>
+            <p class="j">Billy Raffoul is a Canadian rock singer-songwriter. He grew up in a family of musicians, which introduced him to the music business...<b class="pink" onclick="evtEllipse(this)">Read More</b>
+              <span class="hide" onclick="spanEllipse(this)"><br><br>First releasing music in 2017, the singer has experienced rising success. He has collaborated with boundary breaking artists such as Julia Michaels, Avicii, and Kygo and opened for Kings of Leon, X Ambassadors, and NEEDTOBREATHE. 
+                <br><br>This artist with a unique sound has recently picked up some traction with the release of his new EP Borne to Die. He was also the winner of the 2021 SOCAN Songwriting prize for his single “Western Skies.” We are excited to see what else Billy 
+                Raffoul has to offer!
+                <br><br>
+                <b>EP: Borne to Die</b>
+                <br>
+                The mix of JJ Wilde and Billy Raffoul’s voices create a beautiful raspy melody that makes the newly released Borne to Die EP an addicting listen. The EP features 3 songs with staggering variety, allowing for an engaging and interesting listen. 
+                <br><br>
+                <b>Our Favourite Song</b>
+                <br>
+                Musetech’s favourite song from the album is the anthemic rock song that matches the title of the EP, <b>“Born to Die.”</b>  The song features sentimental lyrics that tell a love story and pulls at the heartstrings. With a catchy tune and conversational tone, this song is also a fan-favourite on the EP. 
+              </span>
+            </p>
+            
+            <a class="w3-button w3-black w3-margin-bottom" href="https://billyraffoul.com/" target="_blank">Visit Site</a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/chris-larkin.jpeg" alt="Chris Larkin" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Chris Larkin</b></p>
+            <p class="w3-opacity">Album: Greenpath</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p class="j">Christopher Larkin is a composer and sound designer for film, television, and video games. The artist has always had a love of creativity...<b class="pink" onclick="evtEllipse(this)">Read More</b>
+              <span class="hide" onclick="spanEllipse(this)">and began exploring the medium of music making in his early teens. Now, a full time composer, he is best known for his score and sound for indie game hit “Hollow Knight”, sound for “Pac-Man 256”, and recently the sweeping orchestral score for feature documentary “Barbecue”.
+
+                <br><br>
+                <b>Album: Hollow Knight</b>
+                <br>
+                “Hollow Knight” is a 2D Metroidvania action-adventure game that takes place in Hallownest, a fictional ancient kingdom. Chris Larkin composed an incredible instrumental soundtrack that helps the game come to life for the player. The serene sound is described by fans to evoke the feeling of chills. 
+                <br><br>
+                <b>Our Favourite Song</b>
+                <br>
+                Musetech’s favourite song from the album is <b>“Greenpath,”</b> a soothing song that creates a feeling of nostalgia. After giving this song and the soundtrack a listen, it is clear that Chris is an extremely talented composer.
+              </span>
+            </p>
+            
+            <a class="w3-button w3-black w3-margin-bottom" href="http://composerlarkin.com/" target="_blank">Visit Site</a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="images/olivia-rodrigo.jpeg" alt="Olivia Rodrigo" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Olivia Rodrigo</b></p>
+            <p class="w3-opacity">Album: SOUR</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <p class="j">Olivia Rodrigo is a singer-songwriter, who at just 18 years of age, has become perhaps the biggest new pop star. After releasing her first...<b class="pink" onclick="evtEllipse(this)">Read More</b>
+              <span class="hide" onclick="spanEllipse(this)"> single, Drivers License, in January of 2021, this artist has broken countless records including the record for the most songs in the top 10 at one time and the most streams for a song in a single week. 
+                <br><br>
+                <b>Album: SOUR</b>
+                <br>
+                Her debut album, SOUR was released in May of 2021. The album features a collection of lightly chaotic breakup tunes with extremely catchy lyrics and melodies. Each track draws you in and invites you to sing along. Simply put, it is fun to listen to. The album has a nice balance of playfulness and sullen moments.                <br><br>
+                <b>Our Favourite Song</b>
+                <br>
+                Musetech’s favourite song from the album is <b>“good 4 u.”</b> In this angsty pop-rock track, Olivia calls out an ex who quickly moves on from her, with seemingly little care. The story-line and clever lyrics make it impossible to not want to belt out each verse along with the young artist. We love high energy. 
+              </span>
+            </p>
+            <a class="w3-button w3-black w3-margin-bottom" href="https://www.oliviarodrigo.com/" target="_blank">Visit Site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- The About Us Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide w3-center">ABOUT US</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-building" style="width:30px"></i> MuseTech<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Ontario, CA<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: musetech@email.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+
+    <h2 class="w3-wide w3-center">WHO ARE WE?</h2>
+    <div class="w3-row w3-padding-32">
+        <div class="w3-forth">
+            <p><b>Abby Di Laudo</b></p>
+            <p class="w3-opacity">Kingsville, CA</p>
+            <img src="images/abbby.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </div>
+        <div class="w3-forth">
+            <p><b>Phuong Hoang</b></p>
+            <p class="w3-opacity">York, CA</p>
+            <img src="images/kelly.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        </div>
+        <div class="w3-forth">
+            <p><b>Winnie Huang</b></p>
+            <p class="w3-opacity">Markham, CA</p>
+            <img src="images/winnie.png" class="w3-round" alt="Random Name" style="width:60%">
+        </div>
+        <div class="w3-forth">
+            <p><b>Sandra Huang</b></p>
+            <p class="w3-opacity">Markham, CA</p>
+            <img src="images/sandera.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+        </div>
+        </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+function evtEllipse(info) {
+  info.nextElementSibling.classList.toggle('hide');
+  info.classList.toggle('hide');
+}
+function spanEllipse(info) {
+  info.classList.toggle('hide');
+  info.previousElementSibling.classList.toggle('hide')
+}
+
+</script>
+
+</body>
+</html>
